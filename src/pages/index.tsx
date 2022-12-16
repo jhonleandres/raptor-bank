@@ -9,7 +9,6 @@ interface Props {
   isMobileView: boolean;
 }
 const Home: NextPage<Props> = ({ isMobileView }) => {
-  console.log(isMobileView);
   return isMobileView == true ? (
     <Mobile>
       <div>a</div>
